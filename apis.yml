@@ -1,8 +1,25 @@
 aid: kerros-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kerros-health.png
 name: Kerros Health
-description: 'Kerros Health is a company surfaced as a portfolio company of cowboy-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Kerros Health (Kerros) was a digital mental-health and wellness startup building
+  clinically validated, mobile-based programs proven to improve mental health, positioned as an
+  evidence-based consumer brand modernizing established treatments through mobile technology and
+  design. The product began as a teen-created mental-health app (originating out of Scarsdale High
+  School) and grew largely through word of mouth. Co-founded by Justin Ip and backed by Cowboy
+  Ventures at the seed stage, the company has since exited. It was a consumer mobile app with no
+  public developer/API surface; this API Evangelist profile is maintained as a portfolio-lead record
+  and no OpenAPI, SDK, or developer documentation could be found during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/kerros-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+x-founder: Justin Ip
+x-status: exited
+x-stage: seed
 tags:
 - Company
 - Healthcare
+- Mental Health
+- Wellness
+- Digital Health
+- Mobile App
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
