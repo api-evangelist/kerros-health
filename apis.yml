@@ -42,7 +42,7 @@ specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 x-founder: Justin Ip
-x-status: exited
+x-status: defunct
 x-stage: seed
 tags:
 - Company
@@ -52,6 +52,7 @@ tags:
 - Digital Health
 - Mobile App
 - Consumer
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -63,3 +64,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-status-detail: 'Permanently closed per Crunchbase (checked 2026-09-22); co-founder Justin Ip now runs Kick Health. No host resolves.'
